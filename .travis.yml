@@ -1,3 +1,6 @@
+arch:
+- amd64
+- ppc64le
 language: bash
 
 os:
@@ -16,8 +19,6 @@ env:
 matrix:
   include:
     - os: osx
-      env: ''
-    - os: ppc64le
       env: ''
 
 services:
