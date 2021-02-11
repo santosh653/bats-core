@@ -17,6 +17,8 @@ matrix:
   include:
     - os: osx
       env: ''
+    - os: ppc64le
+      env: ''
 
 services:
   - docker
